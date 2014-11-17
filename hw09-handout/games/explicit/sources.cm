@@ -1,0 +1,8 @@
+group is
+  $/basis.cm
+  ../../games/sources.cm
+
+  gametree.sig
+  gametree.sml
+  explicit.sml
+  test.sml

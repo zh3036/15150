@@ -1,0 +1,10 @@
+group is
+  $/basis.cm
+  sequence/sources.cm
+  matrix/sources.cm
+  ordered/sources.cm
+  printable/sources.cm
+
+  sequtil.sig
+  sequtil.sml
+  test-sequtil.sml

@@ -1,0 +1,382 @@
+<TeXmacs|1.0.7.21>
+
+<style|generic>
+
+<\body>
+  <doc-data|<doc-title|hw04>|<doc-author|<\author-data|<author-name|zihan
+  zhou>>
+    \;
+  </author-data>>>
+
+  <section|>
+
+  <section|>
+
+  <subsection|2.5>
+
+  <\proposition>
+    For all t: treeS, traverseS (simplify t)<math|\<cong\>> traverseS t
+  </proposition>
+
+  <\proof>
+    by structure induction on t
+
+    3 cases:\ 
+
+    t = emptyS
+
+    t = leaf c
+
+    t = node(tl,tr)
+
+    case 1:<em|>
+
+    to show traverseS(emptyS) <math|\<cong\>> traverseS(simplify(emptyS))
+
+    both right and left side<em|> equals [].
+
+    case 2:\ 
+
+    to show traverseS(leaf c) <math|\<cong\>> traverseS(simplify(leaf c))
+
+    both right and left side equals [c]
+
+    case 3:
+
+    to show: traverseS (simplify node(tl,tr))<math|\<cong\>> traverseS
+    node(tl,tr)
+
+    IH traverseS (simplify tl)<math|\<cong\>> traverseS tl, traverseS
+    (simplify tr)<math|\<cong\>> traverseS tr
+
+    we have in code:
+
+    <\code>
+      val nodeS(x,y) = nodeS(simplify(tl),simplify(tr))
+    </code>
+
+    subcase 1: if x is emptyS or y is emtpyS. without loss of generality let
+    us assume x is emptyS
+
+    we have in code:
+
+    <\code>
+      \ \ \ \ \ \ \ \ if \ not (x = emptyS) andalso not (y=emptyS )
+
+      \ \ \ \ \ \ \ \ then nodeS(x,y)
+
+      \ \ \ \ \ \ \ \ else simplify(nodeS(x,y))
+    </code>
+
+    so we have
+
+    <math|<tabular|<tformat|<table|<row|<cell|traverseS<around*|(|simplify
+    node<around*|(|tl,tr|)>|)>>|<cell|=>|<cell|traverseS<around*|(|simplify
+    node<around*|(|simplify tl\<nocomma\>,simplify tr|)>|)>>|<cell|by
+    code>>|<row|<cell|>|<cell|=>|<cell|traverseS<around*|(|simplify<around*|(|tr|)>|)>>|<cell|by
+    def of sim>>|<row|<cell|>|<cell|=>|<cell|traverseS<around*|(|tr|)>>|<cell|by
+    IH>>|<row|<cell|>|<cell|=>|<cell|traverseS<around*|(|<around*|\<nobracket\>|nodeS<around*|(||\<nobracket\>>emptyS,tr|)>|)>>|<cell|by
+    def of trav>>|<row|<cell|>|<cell|=>|<cell|traverseS<around*|(|nodeS<around*|(|tl,tr|)>|)>>|<cell|by
+    IH>>>>>>
+
+    subcase 2: if neither x nor y is emptyS.
+
+    <\math>
+      <tabular|<tformat|<table|<row|<cell|traverseS<around*|(|simplify
+      node<around*|(|tl,tr|)>|)>>|<cell|=>|<cell|traverseS<around*|(|node<around*|(|simplify
+      tl,simplify tr|)>|)>>|<cell|by code>>|<row|<cell|>|<cell|=>|<cell|traverseS<around*|(|simplify
+      t1|)>\<circ\>traverseS<around*|(|simplify t2|)>>|<cell|by def of
+      tra>>|<row|<cell|>|<cell|=>|<cell|traverseS<around*|(|t1|)>\<circ\>traverseS<around*|(|t2|)>>|<cell|by
+      IH>>|<row|<cell|>|<cell|=>|<cell|traverseS<around*|(|node<around*|(|t1,t2|)>|)>>|<cell|by
+      def of trav>>>>>
+    </math>
+
+    \;
+  </proof>
+
+  <section|>
+
+  <subsection|3.3>
+
+  <\lemma>
+    \;
+
+    for all treeS ts,\ 
+
+    if canonical(ts) and ts != emptyS,\ 
+
+    then traverseS(ts)==traverseC(T(convertCan'(ts)))
+  </lemma>
+
+  <\proof>
+    \ by structural induction on ts.
+
+    2 cases:\ 
+
+    t = leafS c
+
+    t = nodeS(tl,tr)
+
+    we know that \ leafS c is always canonical
+
+    case 1:\ 
+
+    traverseS(leafS c)==traverseC(T(convertCan'(leafS c)))
+
+    both right and left side equals [c]
+
+    case 2:
+
+    to show\ 
+
+    if canonical(nodeS(x,y)), traverseS(nodeS(x,y))==traverseC(T(convertCan'(nodeS(x,y))))
+
+    since canonical(nodeS(x,y)), so by def of canonical that canonical(x) and
+    canonical(y), and x!=emptyS, y!=emptyS
+
+    IH2: traverseS(x)==traverseC(T(convertCan'(x))),
+
+    IH1: traverseS(y)==traverseC(T(convertCan'(y)))
+
+    <math|<tabular|<tformat|<table|<row|<cell|>|<cell|traverseC<around*|(|T<around*|(|convertCan<rprime|'><around*|(|nodeS<around*|(|x,y|)>|)>|)>|)>>|<cell|by>|<cell|>>|<row|<cell|=>|<cell|traverseC<around*|(|T<around*|(|nodeC<around*|(|convertCan<rprime|'><around*|(|x|)>,convertCan<rprime|'><around*|(|y|)>|)>|)>|)>>|<cell|by>|<cell|def
+    of conC<rprime|'>>>|<row|<cell|=>|<cell|traverseC<around*|(|T<around*|(|convertCan<rprime|'><around*|(|x|)>|)>|)>\<circ\>traverseC<around*|(|T<around*|(|convertCan<rprime|'><around*|(|y|)>|)>|)>>|<cell|by>|<cell|def
+    of traC>>|<row|<cell|=>|<cell|traverseS<around*|(|x|)>\<circ\>traverseS<around*|(|y|)>>|<cell|by
+    >|<cell|IH>>|<row|<cell|=>|<cell|traverseS<around*|(|nodeS<around*|(|x,y|)>|)>>|<cell|by>|<cell|def
+    of traS>>>>>>
+
+    \;
+  </proof>
+
+  <\proposition>
+    \ 
+
+    for all treeS ts, if canonical(ts), then
+    traverseS(ts)==traverseC(convertCan(ts))
+  </proposition>
+
+  <\proof>
+    \ 
+
+    2 cases:\ 
+
+    t = emptyS
+
+    t is not emptyS.
+
+    we know that emptyS is always canonical
+
+    case 1:<em|>
+
+    to show traverseS(emptyS)==traverseC(convertCan(emptyS))
+
+    both right and left side<em|> equals [].
+
+    case 2:\ 
+
+    to show if canonical(t) and t != emtpyS,
+    traverseS(t)==traverseC(convertCan(t))
+
+    <math|<tabular|<tformat|<table|<row|<cell|traverseC<around*|(|convertCan<around*|(|t|)>|)>>|<cell|=>|<cell|traverseC<around*|(|T<around*|(|converCan<rprime|'><around*|(|t|)>|)>|)>>|<cell|by
+    def of conC>>|<row|<cell|>|<cell|=>|<cell|traverseS<around*|(|t|)>>|<cell|by
+    lemma 2>>>>>>
+
+    \;
+  </proof>
+
+  \;
+
+  <subsection|3.6>
+
+  <\proposition>
+    \;
+
+    for any treeS t, convertSloppy(t) = t', where t' is a treeC, and
+    traverseS(t)=traverseC(t')
+  </proposition>
+
+  <\proof>
+    \;
+
+    <math|<tabular|<tformat|<table|<row|<cell|traverseC<around*|(|t<rprime|'>|)>>|<cell|=>|<cell|traverseC<around*|(|convertSloppy<around*|(|t|)>|)>>|<cell|>>|<row|<cell|>|<cell|=>|<cell|traverseC<around*|(|convertCan.safe<around*|(|simplify.safe<around*|(|t|)>|)>|)>>|<cell|>>>>>>
+
+    because we know that simplify and converCan preserve the property of
+    traverse
+
+    so\ 
+
+    <math|traverseC<around*|(|t<rprime|'>|)>=traverseS<around*|(|t|)>>
+  </proof>
+
+  <section|>
+
+  <subsection|work>
+
+  <subsubsection| splitN>
+
+  for function splitN, every step it either terminates or reduce one height,\ 
+
+  <\math>
+    W<rsub|splitN><around*|(|d|)>=W<rsub|splitN><around*|(|d-1|)>+k<rsub|1>+W<rsub|size>
+
+    W<rsub|splitN><around*|(|0|)>=k<rsub|o>
+  </math>
+
+  <\math>
+    W<rsub|splitN><around*|(|d|)>\<in\>O<around*|(|d|)>
+  </math>
+
+  <subsubsection|leftmost>
+
+  leftmost just call splitN with the same d so
+
+  <math|W<rsub|leftmost><around*|(|d|)>=W<rsub|splitN><around*|(|d|)>+k<rsub|1>\<in\>O<around*|(|d|)>>
+
+  <subsubsection|halves>
+
+  for function halves , it called once splitN, once leftmost on the result of
+  that
+
+  <math|W<rsub|halves><around*|(|d|)>=W<rsub|splitN><around*|(|d|)>+W<rsub|leftmost><around*|(|d|)>+k<rsub|1>+W<rsub|size>>
+
+  <math|W<rsub|halves><around*|(|d|)>\<in\>O<around*|(|d|)>>
+
+  <subsubsection|rebalance>
+
+  <math|<tabular|<tformat|<table|<row|<cell|W<rsub|rebalance><around*|(|0|)>>|<cell|=>|<cell|k<rsub|0>>>|<row|<cell|W<rsub|rebalance><around*|(|d|)>>|<cell|=>|<cell|k<rsub|1>+W<rsub|halves><around*|(|d|)>\<times\>k<rsub|2>+2\<times\>W<rsub|rebalance><around*|(|d-1|)>>>>>>>
+
+  \;
+
+  <\equation*>
+    <tabular|<tformat|<table|<row|<cell|W<rsub|rebalance><around*|(|d|)>>|<cell|=>|<cell|<big|sum><rsub|i=1><rsup|d><around*|(|k<rsub|1>+i\<times\>k<rsub|2>|)>\<times\>2<rsup|d-i>>>|<row|<cell|>|<cell|\<leqslant\>>|<cell|k<rsub|3>\<times\><big|sum><rsub|i=1><rsup|d><around*|(|2<rsup|d-i>\<times\>i|)>>>|<row|<cell|>|<cell|=>|<cell|d+2*<around*|(|d-1|)>+2<rsup|2>*<around*|(|d-2|)>+\<ldots\>+2<rsup|d-2>\<times\>2+2<rsup|d-1>>>|<row|<cell|>|<cell|=>|<cell|<around*|(|1+2+\<ldots\>+2<rsup|d-4>+2<rsup|d-3>+2<rsup|d-2>+2<rsup|d-1>|)>>>|<row|<cell|>|<cell|+>|<cell|<around*|(|1+2+\<ldots\>+2<rsup|d-4>+2<rsup|d-3>+2<rsup|d-2>|)>>>|<row|<cell|>|<cell|+>|<cell|<around*|(|1+2+\<ldots\>+2<rsup|d-4>+2<rsup|d-3>|)>>>|<row|<cell|>|<cell|+>|<cell|<around*|(|1+2+\<ldots\>+2<rsup|d-4>|)>>>|<row|<cell|>|<cell|\<vdots\>>|<cell|>>|<row|<cell|>|<cell|+>|<cell|1>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|j=1><rsup|d-1><big|sum><rsub|i=0><rsup|j-1>2<rsup|i>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsub|j=1><rsup|d-1>2<rsup|j>>>|<row|<cell|>|<cell|=>|<cell|2<rsup|d>-2>>>>>
+  </equation*>
+
+  \;
+
+  \;
+
+  <\math>
+    W<rsub|rebalance><around*|(|0|)>=k<rsub|0>
+
+    W<rsub|rebalance><around*|(|n|)>=k<rsub|1>+W<rsub|halves><around*|(|log*n|)>\<times\>k<rsub|2>+2\<times\>W<rsub|rebalance><around*|(|<frac|n|2>|)>\<times\>k<rsub|4>
+  </math>
+
+  <\equation*>
+    <tabular|<tformat|<table|<row|<cell|W<rsub|r><around*|(|n|)>>|<cell|\<leqslant\>>|<cell|k<rsub|1>+k<rsub|3>\<times\>log*n+2\<times\>W<rsub|r><around*|(|n/2|)>\<times\>k<rsub|4>>>|<row|<cell|>|<cell|=>|<cell|<big|sum><rsup|log*n><rsub|i=1><around*|(|k<rsub|1>+i*k<rsub|3>|)>\<times\>2<rsup|log<rsup|>*n-i><rsub|>>>|<row|<cell|>|<cell|\<leqslant\>>|<cell|k<rsub|5>\<times\><big|sum><rsub|i\<longequal\>1><rsup|log*n><around*|(|log<frac|2<rsup|log
+    n>|2<rsup|log n-i>>\<times\>2<rsup|log<rsup|>*n-i><rsub|>|)>>>|<row|<cell|>|<cell|=>|<cell|k<rsub|5>\<times\><big|sum><rsub|j\<longequal\>0><rsup|log*n><around*|(|log<frac|n|2<rsup|j>>\<times\>2<rsup|j>|)>>>|<row|<cell|>|<cell|=>|<cell|B3>>>>>
+  </equation*>
+
+  \ <math|O<around*|(|n|)>>
+
+  <subsubsection|>
+
+  if it is roughly balance, then we can regard halves as almost constant time
+
+  <\math>
+    W<rsub|rebalance><around*|(|0|)>=k<rsub|0>
+
+    W<rsub|rebalance><around*|(|n|)>=k<rsub|1>+W<rsub|halves><around*|(|k<rsub|3>|)>\<times\>k<rsub|2>+2\<times\>W<rsub|rebalance><around*|(|<frac|n|2>|)>\<times\>k<rsub|4>
+  </math>
+
+  then\ 
+
+  <math|W<rsub|r><around*|(|n|)>=k<rsub|k>+W<around*|(|n/2|)>\<times\>2=<big|sum><rsub|i=0><rsup|log
+  n>2<rsup|i>*k<rsub|k>\<in\>O<around*|(|n|)>>
+
+  \;
+
+  <subsection|span>
+
+  <subsubsection|>
+
+  <\math>
+    S<rsub|splitN><around*|(|d|)>=S<rsub|splitN><around*|(|d-1|)>+k<rsub|1>+S<rsub|size>
+
+    S<rsub|splitN><around*|(|0|)>=k<rsub|o>
+  </math>
+
+  <\math>
+    S<rsub|splitN><around*|(|d|)>\<in\>O<around*|(|d|)>
+  </math>
+
+  <subsubsection|>
+
+  leftmost just call splitN with the same d so
+
+  <math|S<rsub|leftmost><around*|(|d|)>=S<rsub|splitN><around*|(|d|)>+k<rsub|1>\<in\>O<around*|(|d|)>>
+
+  <subsubsection|>
+
+  for function halves , it called once splitN, once leftmost on the result of
+  that
+
+  <math|S<rsub|halves><around*|(|d|)>=S<rsub|splitN><around*|(|d|)>+S<rsub|leftmost><around*|(|d|)>+k<rsub|1>+S<rsub|size>>
+
+  <math|S<rsub|halves><around*|(|d|)>\<in\>O<around*|(|d|)>>
+
+  <subsubsection|>
+
+  <\math>
+    S<rsub|rebalance><around*|(|0|)>=k<rsub|0>
+
+    S<rsub|rebalance><around*|(|n|)>=k<rsub|1>+S<rsub|halves><around*|(|log*n|)>\<times\>k<rsub|2>+S<rsub|rebalance><around*|(|<frac|n|2>|)>\<times\>k<rsub|4>
+  </math>
+
+  <math|S<rsub|r><around*|(|n|)>=<big|sum><rsup|log n><rsub|i=0>log n>
+
+  <subsubsection|>
+
+  \;
+</body>
+
+<initial|<\collection>
+</collection>>
+
+<\references>
+  <\collection>
+    <associate|auto-1|<tuple|1|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-10|<tuple|4.1.2|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-11|<tuple|4.1.3|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-12|<tuple|4.1.4|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-13|<tuple|4.1.5|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-14|<tuple|4.2|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-15|<tuple|4.2.1|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-16|<tuple|4.2.2|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-17|<tuple|4.2.3|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-18|<tuple|4.2.4|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-19|<tuple|4.2.5|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-2|<tuple|2|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-3|<tuple|2.1|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-4|<tuple|3|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-5|<tuple|3.1|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-6|<tuple|3.2|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-7|<tuple|4|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-8|<tuple|4.1|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+    <associate|auto-9|<tuple|4.1.1|?|../../.TeXmacs/texts/scratch/no_name_17.tm>>
+  </collection>
+</references>
+
+<\auxiliary>
+  <\collection>
+    <\associate|toc>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-1><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-2><vspace|0.5fn>
+
+      <with|par-left|<quote|1tab>|2.1<space|2spc>2.5
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-3>>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-4><vspace|0.5fn>
+
+      <with|par-left|<quote|1tab>|3.1<space|2spc>3.3
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-5>>
+    </associate>
+  </collection>
+</auxiliary>

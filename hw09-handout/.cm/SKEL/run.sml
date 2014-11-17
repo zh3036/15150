@@ -1,0 +1,2 @@
+Skeleton 5
+d9aдҐCon4"jh0gp1e"Connect4"aдҐHumanC4"jзр±€gp1e"HumanPlayer"aдҐMM5C4"jи±бдҐG"€'gp1e"MiniMax"aдҐAB5C4"j€Бgp1e"MakeAlphaBeta"CaдҐJ5C4"j€Бgp1e"MakeJamboree"ad"C4_HvMM"jh2бдҐMaxie"зр±€aдҐMinnie"зр±€>зр±еҐReferee"ad"C4_MMvAB"jh2a€В+€Гб€В9зр±€Б€Гad"C4_HvAB"jh2€В*€Г*€Гad"C4_HvJ"jh2€В*a€В9gp1€Б?€ГN

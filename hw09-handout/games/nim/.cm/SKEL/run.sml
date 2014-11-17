@@ -1,0 +1,2 @@
+Skeleton 5
+d7aä¢HumanNim"jçğ±ä¢Nim"gp1e"HumanPlayer"aä¢MMNim5"êè±áä¢G"ÿçğ±å¢MiniMax"Caä¢MMNim1"ÿ3ad"Nim_HvMM5"jh2áä¢Maxie"çğ±ÿáä¢Minnie"çğ±ÿ*çğ±å¢Referee"ad"Nim_MM5vMM5"jh2aÿ(ÿ?ÿ5ÿ‚ad"Nim_HvMM1"jh2ÿ'aÿ6çğ±ÿÿ‚ad"Nim_MM1vH"jh2aÿ(ÿƒaÿ6ÿ0ÿ‚N

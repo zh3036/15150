@@ -1,0 +1,42 @@
+group is
+  $/basis.cm
+  lib/sources.cm
+
+
+  games/sources.cm
+
+(*  games/nim/sources.cm *)
+  games/nim/nim.sml
+  games/nim/run.sml
+
+(*  games/connect4/sources.cm *)
+  games/connect4/las.sig
+  las.sml
+  games/connect4/connect4.sig
+  connect4.sml
+  games/connect4/connect4-tight.sml
+  run.sml
+
+(*  games/explicit/sources.cm *)
+  games/explicit/gametree.sig
+  games/explicit/gametree.sml
+  games/explicit/explicit.sml
+  games/explicit/test.sml
+
+
+(*  players/sources.cm *)
+  players/player.sig
+  players/humanplayer.sml
+  players/minimax.sml
+  players/alphabeta.sig
+          alphabeta.sml
+  players/alphabeta-tight.sml
+  players/jamboree.sig
+          jamboree.sml
+  players/jamboree-tight.sml
+
+  players/referee/referee.sig
+  players/referee/referee.sml
+
+
+  test-all.sml

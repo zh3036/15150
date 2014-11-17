@@ -1,0 +1,11 @@
+Group is
+  $/basis.cm
+
+  fs.sig
+  fs.sml
+
+  basix.sig
+  basix.sml
+
+  minix.sig
+  minix.sml

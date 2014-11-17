@@ -1,0 +1,2 @@
+Skeleton 5
+ac"SEQUENCE"h1egp1c"SEQUENCECORE"

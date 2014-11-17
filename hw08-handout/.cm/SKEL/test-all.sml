@@ -1,0 +1,2 @@
+Skeleton 5
+d2f1d"Seq"ad"Test"h7ad"Q"зр±дўSeqUtil"aдўU"jh2ad"I"gp1d"IntUtil"ad"S"яgp1e"Util"CaдўA"jh2бя'зр±я'ad"R"зр±дўStrLetter"gp1e"Assignment"aдўLS"jяЃ'gp1e"Literal"ad"P"jиІяЃбдўL"зр±я‚gp1e"Prop"ad"C"jh3яЃя‚(aяЃgp1яЃgp1e"Cnf"ad"P2"jя‚#gp1e"Prop2"N

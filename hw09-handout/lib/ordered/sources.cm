@@ -1,0 +1,18 @@
+group is
+  $/basis.cm
+  ordered.sig
+  int.sml
+  intinf.sml
+  unit.sml
+
+  flip.sml
+  lexi.sml
+  first.sml
+  second.sml
+  list.sml
+
+  ordered-ext.sig
+  ordered-ext.sml
+
+  relation.sig
+  le.sml

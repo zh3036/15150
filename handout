@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+   <title>login.cmu.edu</title>
+   <link href="/css/cmu-general-purpose.css" rel="stylesheet" type="text/css" />
+   <link href="/css/login.css" rel="stylesheet" type="text/css" />
+   <link href="/css/ie.css" rel="stylesheet" type="text/css" />
+   <link href="/css/iphone.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" /> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+   <link rel="icon" href="https://www.cmu.edu/favicon.ico" type="image/x-icon" />
+   <link rel="shortcut icon" href="https://www.cmu.edu/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+<form method="post" action="/idp/Authn/Stateless" autocomplete="off" name="query">
+<div id="wrapper">
+ <div id="pageHeader">
+  <div id="wordmark">
+   <h2><a title="Carnegie Mellon University" href="https://www.cmu.edu/"><span>Carnegie Mellon University</span></a></h2>
+  </div>
+ </div>
+
+ <div class="content" id="maincontent">
+  <div id="loginForm">
+<div class="content $library" id="loginformdiv">
+   <fieldset>
+    <div id="mobile-lockwrapper">
+     <div id="mobile-lock"><a href="https://www.cmu.edu/computing/web/authenticate/web-login/example.html" target="_blank"><span>Lock Icon</span></a></div>
+    </div>
+
+    <div class="clear" id="formclear">
+     <div class="legend"><h1><strong>Web&nbsp;Login</strong></h1></div>
+     <div id="formandlock">
+       <div id="formwrapper">
+        <div class="formrow" id="failed">&nbsp;
+        </div>
+
+        <div class="formrow">
+           <label for="j_username">AndrewID</label>
+           <input type="text" name="j_username" id="j_username" size="25" tabindex="1" autocorrect="off" autocapitalize="off" value="" />
+        </div>
+
+        <div class="formrow">
+           <label for="j_password">Password</label>
+           <input type="password" name="j_password" id="j_password" size="25" tabindex="2" autocorrect="off" autocapitalize="off" />
+        </div>
+
+        <div class="formrow">
+           <input type="hidden" name="j_continue" id="j_continue" value="1"/>
+           <input class="loginbutton" type="submit" name="submit" value="Login" size="15" tabindex="3" style="text-align: left;" />
+        </div>
+       </div>
+       <div id="lockwrapper">
+        <div id="lock"><a href="https://www.cmu.edu/computing/web/authenticate/web-login/example.html" target="_blank"><span>Lock Icon</span></a></div>
+       </div>
+     </div>
+    </div>
+
+    <div id="warning">Warning: The URL for this page should begin with <strong>https://login.cmu.edu</strong>. 
+      <br />If it does not, do not fill in any information, and report this site to <a href="mailto:it-help@cmu.edu">it-help@cmu.edu</a>.
+    </div>
+
+    <div id="password">
+       <a href="https://www.cmu.edu/computing/web/authenticate/web-login/example.html" target="_blank">About</a> | <a href="https://www.cmu.edu/computing/accounts/passwords/index.html" target="_blank">Change Password</a> | <a href="https://www.cmu.edu/computing/accounts/passwords/forgot.html">Forgot Password?</a>
+    </div>
+   </fieldset>
+  </div>
+  </div>
+ </div>
+ <div class="clear"></div>
+</div>
+</form>
+<script type="text/javascript" language="javascript">
+if (document.getElementById('j_username').value.length == 0) { 
+  document.getElementById('j_username').focus();
+} else {
+  document.getElementById('j_password').focus();
+}
+document.getElementById('bar').style.height=document.getElementById('loginformdiv').clientHeight*2/3 + "px";
+document.getElementById('bar').style.marginTop=document.getElementById('loginformdiv').clientHeight*1/6 + "px";
+document.getElementById('bar').style.marginBottom=document.getElementById('loginformdiv').clientHeight*1/6 + "px";
+
+document.getElementById('library').style.height=document.getElementById('loginformdiv').clientHeight + "px";
+
+function resizelibrary() {
+var maxw = document.getElementById('maincontent').clientWidth - document.getElementById('loginformdiv').clientWidth - document.getElementById('bar').clientWidth - 200;
+var formw = document.getElementById('loginformdiv').clientWidth;
+var minw = 300;
+
+var libw = minw;
+document.getElementById('library').style.width = libw + "px";
+
+}
+window.onresize=resizelibrary();
+resizelibrary();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+group is
+  $/basis.cm
+
+  util.sig
+  util.sml
+
+  elt.sig
+  intelt.sml
+
+  infvec.sig
+  listvec.sml
+  sparsevec.sml
+  funvec.sml
+
+  matrix.sig
+  matrix.sml
+
+  test-all.sml

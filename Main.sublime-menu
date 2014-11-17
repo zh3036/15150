@@ -1,0 +1,27 @@
+[
+     {
+        "id": "tools",
+        "children":
+        [{
+            "caption": "SublimeREPL",
+            "mnemonic": "r",
+            "id": "SublimeREPL",
+            "children":
+            [
+                {"command": "repl_open",
+                "id": "repl_sml",
+                 "caption": "SML",
+                 "args": {
+                    "type": "subprocess",
+                    "encoding": "utf8",
+                    "cmd": ["/usr/local/bin/sml", "$file"],
+                    "cwd": "$file_path",
+                    "syntax": "Packages/SML (Standard ML)/sml.tmLanguage",
+                    "external_id": "sml",
+                    "extend_env": {"NODE_DISABLE_COLORS": "1"}
+                    }
+                }
+            ]
+        }]
+    }
+]

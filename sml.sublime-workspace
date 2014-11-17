@@ -1,0 +1,1851 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"to",
+				"totalLength"
+			],
+			[
+				"map",
+				"mapreduce"
+			],
+			[
+				"f",
+				"forall"
+			],
+			[
+				"tos",
+				"toList"
+			],
+			[
+				"co",
+				"component"
+			],
+			[
+				"tol",
+				"toList"
+			],
+			[
+				"L",
+				"ListVec"
+			],
+			[
+				"in",
+				"infvec"
+			],
+			[
+				"is",
+				"iszero"
+			],
+			[
+				"fo",
+				"foo2"
+			],
+			[
+				"fun",
+				"fun	SML 'fun' function"
+			],
+			[
+				"Se",
+				"SetNoDuplicates"
+			],
+			[
+				"mo",
+				"MODOPS"
+			],
+			[
+				"MO",
+				"MODOPS"
+			],
+			[
+				"pt",
+				"pTree_toString"
+			],
+			[
+				"pl",
+				"pList_fromString"
+			],
+			[
+				"pL",
+				"pList"
+			],
+			[
+				"val",
+				"valid"
+			],
+			[
+				"va",
+				"valid"
+			],
+			[
+				"com",
+				"compare"
+			],
+			[
+				"e",
+				"Empty"
+			],
+			[
+				"remo",
+				"removeT"
+			],
+			[
+				"re",
+				"removeT"
+			],
+			[
+				"me",
+				"merge"
+			],
+			[
+				"bl",
+				"balanced"
+			],
+			[
+				"le",
+				"leftmost"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"emp",
+				"empty"
+			],
+			[
+				"node",
+				"node"
+			],
+			[
+				"Node",
+				"nodeC"
+			],
+			[
+				"tr",
+				"treeC"
+			],
+			[
+				"tree",
+				"treeC"
+			],
+			[
+				"con",
+				"convertSloppy"
+			],
+			[
+				"lea",
+				"leafC"
+			],
+			[
+				"t",
+				"treeC"
+			],
+			[
+				"l",
+				"leafS"
+			],
+			[
+				"tre",
+				"treeC"
+			],
+			[
+				"n",
+				"nodeS"
+			],
+			[
+				"tra",
+				"traverseC"
+			],
+			[
+				"no",
+				"nodeC"
+			],
+			[
+				"si",
+				"simplify"
+			],
+			[
+				"No",
+				"nodeS"
+			],
+			[
+				"ca",
+				"canonical"
+			],
+			[
+				"it",
+				"itinerary"
+			],
+			[
+				"tu",
+				"turnRight"
+			],
+			[
+				"E",
+				"East"
+			],
+			[
+				"or",
+				"orientation"
+			],
+			[
+				"i",
+				"iSize"
+			],
+			[
+				"and",
+				"andalso"
+			],
+			[
+				"evi",
+				"evil3"
+			],
+			[
+				"ev",
+				"evil2"
+			],
+			[
+				"evil",
+				"evil2"
+			],
+			[
+				"evl",
+				"evil2"
+			],
+			[
+				"uni",
+				"unique"
+			],
+			[
+				"fam",
+				"famTree"
+			],
+			[
+				"for",
+				"for	For Loop"
+			],
+			[
+				"wor",
+				"wordtotest"
+			],
+			[
+				"eng",
+				"engfile"
+			],
+			[
+				"word",
+				"WORDCOUNT"
+			],
+			[
+				"SC",
+				"SCORE"
+			],
+			[
+				"GU",
+				"GUESS"
+			],
+			[
+				"G",
+				"GUESS"
+			],
+			[
+				"en",
+				"english"
+			],
+			[
+				"bo",
+				"board"
+			],
+			[
+				"pri",
+				"printboard"
+			],
+			[
+				"def",
+				"def	Function"
+			],
+			[
+				"IN",
+				"INITIAL_TIME"
+			],
+			[
+				"B",
+				"BOGGLE_LETTERS"
+			],
+			[
+				"pos",
+				"currentaimpos  (variable)"
+			],
+			[
+				"pas",
+				"passive"
+			],
+			[
+				"cre",
+				"crecombat"
+			],
+			[
+				"selsu",
+				"selfsumheal"
+			],
+			[
+				"ene",
+				"enesumheal"
+			],
+			[
+				"self",
+				"selfsumatk"
+			],
+			[
+				"selfs",
+				"selfsumheal"
+			],
+			[
+				"selfsum",
+				"selfsumatk"
+			],
+			[
+				"at",
+				"attackmodel"
+			],
+			[
+				"h",
+				"health"
+			],
+			[
+				"far",
+				"farmers  (variable)"
+			],
+			[
+				"fa",
+				"farmers  (variable)"
+			],
+			[
+				"c",
+				"currentaimpos"
+			],
+			[
+				"famer",
+				"farmers"
+			],
+			[
+				"rote",
+				"rotate"
+			],
+			[
+				"spr",
+				"sprites"
+			],
+			[
+				"spri",
+				"sprites"
+			],
+			[
+				"m",
+				"mspeed"
+			],
+			[
+				"ali",
+				"alignment"
+			],
+			[
+				"_",
+				"__init__"
+			],
+			[
+				"add",
+				"addunit"
+			],
+			[
+				"aut",
+				"autoaimmode  (variable)"
+			],
+			[
+				"attac",
+				"attack"
+			],
+			[
+				"aim",
+				"aimunit"
+			],
+			[
+				"combat",
+				"combatunits"
+			],
+			[
+				"atta",
+				"attackmodel"
+			],
+			[
+				"att",
+				"atkpoint"
+			],
+			[
+				"__",
+				"__init__  (function)"
+			],
+			[
+				"lan",
+				"landrect"
+			],
+			[
+				"cho",
+				"chosenstate"
+			],
+			[
+				"ge",
+				"get_distance"
+			],
+			[
+				"auto",
+				"autoaimmode"
+			],
+			[
+				"au",
+				"autoaimmode  (variable)"
+			],
+			[
+				"ch",
+				"chosenstate"
+			],
+			[
+				"chos",
+				"chosenstate"
+			],
+			[
+				"attack",
+				"attackmode"
+			],
+			[
+				"try",
+				"try	Try/Except/Else"
+			],
+			[
+				"tyr",
+				"try	Try/Except"
+			],
+			[
+				"get",
+				"get_length  (function)"
+			],
+			[
+				"bu",
+				"bullests"
+			],
+			[
+				"comba",
+				"combatunit"
+			],
+			[
+				"d",
+				"draw  (function)"
+			],
+			[
+				"nai",
+				"navirect"
+			],
+			[
+				"hi",
+				"hitrect  (variable)"
+			],
+			[
+				"H",
+				"hitten  (variable)"
+			],
+			[
+				"u",
+				"unitimage"
+			],
+			[
+				"fu",
+				"fuspe"
+			],
+			[
+				"col",
+				"colliderect"
+			],
+			[
+				"bg",
+				"bgwrect"
+			],
+			[
+				"pr",
+				"property	New Property"
+			],
+			[
+				"K_",
+				"K_RIGHT"
+			],
+			[
+				"cur",
+				"currentaimpos"
+			],
+			[
+				"po",
+				"pos"
+			],
+			[
+				"draw",
+				"drawrect"
+			],
+			[
+				"navi",
+				"navirect"
+			],
+			[
+				"scr",
+				"screen"
+			],
+			[
+				"na",
+				"navirect"
+			],
+			[
+				"moe",
+				"move_ip"
+			],
+			[
+				"bgw",
+				"bgwrect"
+			],
+			[
+				"move",
+				"move"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lab07/code/mapreduce.sml",
+			"settings":
+			{
+				"buffer_size": 863,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "(* andrew Id: _____zihanz____________ *)\n\nfunctor FunVec(Elt : ELT) :> INFVEC where E = Elt =\nstruct\n  open Util\n\n  structure E : ELT = Elt\n  type infvec = int * (int -> E.t)\n\n  (* toString v ==> s\n   * ENSURES: s is a string representation of v\n   *)\n  fun toString (v: int * (int -> E.t)): string =\n   let\n     fun ts ((1,f): int * (int -> E.t)): string = \"0,...\"\n       | ts (n,f) = E.toString (f 1) ^ \",\" ^ ts (n-1, fn x => f (x+1))\n   in\n     \"[\" ^ ts v ^ \"]\"\n   end\n   (*\n    valid v ==> tf:bool\n    ensures return true if v satify invariant \n    *)\n    fun valid ((i,f))=\n        if i<1 then false\n        else if i=1 then true\n        else not(E.z(f(i-1)))  \n    (*\n        eq(v,u)=>tf\n        requires valid v andalso valid u\n        ensures if v and u contain same elem in same pos then true\n            else false\n        *)\n  fun eq((1,_):infvec,(1,_))=true\n    | eq((i,f),(j,g))= \n    if i = j then E.eq(f (i-1) , g (i-1)) andalso eq((i-1,f),(i-1,g))\n    else false \n(*\n    fun funA(f:int -> E.t ,g: int -> E.t):int -> E.t = \n        fn x=> f x + g x*)\n\n\n\n(*a spcial chop for function implementation\n    *)\n(*\n    chop f as (x-> tf:bool)->l1->l2\n    requires true \n    ensures every elem satify f from the right of of l1 will be\n    removed, become l2. \n    *)\n\n\n    fun chop((1,f):infvec)=(1,f)\n        | chop ((n,f))=         \n            if E.z(f (n-1)) then chop(n-1,f)\n             else (n,f) \n\n\n\n(*\n    fun toVec' (nil, i) = (i,fn x => E.zero)\n        | toVec' (x::v,i) = \n        let \n            val (ei,f) = toVec'(v,i+1)\n        in\n            (ei,fn y =>E.p( (fn j => if j=i then x else E.zero) y , f y ))\n        end\n*)\n(*\ntoVec'' l,i => v\nensures if i =1 then valid v \n    *)\n\n\n    fun toVec'' (nil, i) = (i,fn x => E.zero)\n        | toVec'' (x::v,i) = \n        let \n            val (ei,f) = toVec''(v,i+1)\n        in\n            (ei,fn y =>if y=i then x else  f y )\n        end\n(*\ntoVec l => v\nensures valid v \n    *)\n    fun toVec v = chop (toVec''(v,1))\n\n(*\ntolist v => l\nrequires valid v\nensures eq(v,toVec l)\n\n    *)\n    fun toList (1,_)=nil\n        | toList (n,f)=toList(n-1,f)@[(f (n-1))]\n(*\niszero v=> tf\nrequires valid v\nensures if empty then true\n\n    *)\n    fun iszero (1,_)=true\n        | iszero _ = false\n(*\nflatat v = n\nrequires valid l\nensures for all i>=n v[i]=E.zero\n    *)\n\n    fun flatat (i,_)=i\n(*\ncompent v,i => x\nrequires valid v i>=1\nensures x is the ith elem of v\n\nps: in specs  i use v[i] to denote\n    compenent(v,i)\n    *)\n    fun component ((_,f),i)=f i\n(*\n    add (v1,v2)=v3\n    requirees valid v1 valid v2\n    ensures valid v3 , for all i >=1 v3[i]=E.p(v1[i],v2[i])\n\n    *)\n\n    fun add' ((i1,f1),(i2,f2))= \n        if i1 > i2 \n        then (i1,fn x => E.p(f2 x ,f1 x))\n        else (i2, fn x => E.p(f2 x ,f1 x))\n\n    (*fun add  _ = raise Fail \"\"*)\n    val add = chop o add'\n\n(*\nscale (x,v)=>v2\nrequiqre valid v\nensure svalid v2 andalso v2[i]=E.m(v[i],x)\n\n    *)\n    fun scale (x,(i,f)) = (i,fn j => E.m((f j),x))\n\n(*    fun filter g (i,f) =\n        body*)\n        (*\n            filter f as(x=>tf:bool) v=>v2\n            requires valid v\n            ensures valid v2\n            v2[i]=v[i] if f v[i] = false else v2[i]=E.zero\n            *)\n    fun filter' g ((i,h):infvec) = \n        (i, fn x => if g (h x) then h x else E.zero)\n\n    fun filter g v = chop (filter' g v)        \n\n    (*\n    convovle (u,v)=>K\n    requires valid u and valid v\n    ensures valid K(((( ))))\n    K is a convolve result of u and v\n        *)\n    fun convolve'((1,f),_)=(1,fn x=>E.zero)\n        | convolve'((n,f),v)=\n        let\n            val (i,g) = scale(f(n-1),v)\n        in\n            add((i+n-2,fn x=>g(x-(n-2)) ),convolve'((n-1,f),v))\n        end\n    val convolve = chop o convolve'\n\n(*    fun convolve'(nil, v)= nil\n        | convolve'(x::l,v)=add(scale(x,v),E.zero::convolve'(l,v))\n*)\n\nend (* functor FunVec *)\n",
+			"file": "hw06-handout/funvec.sml",
+			"file_size": 3847,
+			"file_write_time": 130578719080000000,
+			"settings":
+			{
+				"buffer_size": 3856,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lab07/code/quantifiers.sml",
+			"settings":
+			{
+				"buffer_size": 1032,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lab07/code/tabulate.sml",
+			"settings":
+			{
+				"buffer_size": 172,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Standard ML of New Jersey v110.76 [built: Sat Aug 23 12:34:55 2014]\n- val tabulate = fn : (int -> 'a) -> int -> 'a list\nval evens = fn : int -> int list\nval fact = fn : 'a -> 'b\n- tabulate (fn x=> x+1) 5;\nval it = [1,2,3,4,5] : int list\n- List.tabulate (5,(fn x=> x+1));\n[autoloading]\n[library $SMLNJ-BASIS/basis.cm is stable]\n[autoloading done]\nval it = [1,2,3,4,5] : int list\n- evens 5;\nval it = [0,1,2,3,4] : int list\n- evens 10;\nval it = [0,1,2,3,4,5,6,7,8,9] : int list\n- val tabulate = fn : (int -> 'a) -> int -> 'a list\nval evens = fn : int -> int list\nval fact = fn : int -> int list\n- evens 10;\nval it = [0,1,2,3,4,5,6,7,8,9,10] : int list\n- val tabulate = fn : (int -> 'a) -> int -> 'a list\nval evens = fn : int -> int list\nval fact = fn : int -> int list\n- evens 10;\nval it = [1,2,3,4,5,6,7,8,9,10] : int list\n- stdIn:51.26 Error: unmatched close comment\nstdIn:51.29 Error: syntax error found at INT\n- stdIn:62.26 Error: unmatched close comment\nstdIn:62.29 Error: syntax error found at INT\n- stdIn:73.25 Error: unmatched close comment\nstdIn:73.28 Error: syntax error found at INT\n- \nfun fact n  = foldr (op *) 1 (evens n)\n;\nstdIn:77.25 Error: unmatched close comment\nstdIn:77.28 Error: syntax error found at INT\n- val a = [1,2,3,4];\nval a = [1,2,3,4] : int list\n- foldr ;\nval it = fn : ('a * 'b -> 'b) -> 'b -> 'a list -> 'b\n- foldr (op *) 1 a;\nstdIn:80.11 Error: unmatched close comment\n- foldr (op *) a;\nstdIn:77.10 Error: unmatched close comment\n- foldr;\nval it = fn : ('a * 'b -> 'b) -> 'b -> 'a list -> 'b\n- foldr (fn(x,y)=>(x*y)) 1 a;\nval it = 24 : int\n- op *;\nval it = fn : int * int -> int\n- foldr (op *) 1 a;\nstdIn:83.11 Error: unmatched close comment\n- foldr (op * ) 1 a;\nval it = 24 : int\n- val tabulate = fn : (int -> 'a) -> int -> 'a list\nval evens = fn : int -> int list\nval fact = fn : int -> int\n- datatype 'a tree = Empty | Node of 'a tree * 'a * 'a tree\nval map = fn : ('a -> 'b) -> 'a tree -> 'b tree\nval reduce = fn : ('a * 'b * 'a -> 'a) -> 'a -> 'b tree -> 'a\nval mapreduce = fn : ('a -> 'b) -> ('c * 'b * 'c -> 'c) -> 'c -> 'a tree -> 'c\nval totalLength = fn : 'a -> 'b\n- [autoloading]\n[autoloading done]\nstdIn:138.27-138.59 Error: operator and operand don't agree [tycon mismatch]\n  operator domain: 'Z * int * 'Z -> 'Z\n  operand:         'Y * 'Y -> 'Y\n  in expression:\n    (mapreduce String.size) +\n- stdIn:159.5-159.18 Error: non-constructor applied to argument in pattern: totalLength\nstdIn:159.52 Error: unbound variable or constructor: x\nstdIn:159.5-159.53 Error: operator and operand don't agree [tycon mismatch]\n  operator domain: 'Z * int * 'Z -> 'Z\n  operand:         'Y * 'Y -> 'Y\n  in expression:\n    (mapreduce String.size) +\n- stdIn:180.5-180.18 Error: non-constructor applied to argument in pattern: totalLength\nstdIn:180.54 Error: unbound variable or constructor: x\nstdIn:180.5-180.55 Error: operator and operand don't agree [tycon mismatch]\n  operator domain: 'Z * int * 'Z -> 'Z\n  operand:         'Y * 'Y -> 'Y\n  in expression:\n    (mapreduce String.size) +\n- c;\nstdIn:1.2 Error: unbound variable or constructor: c\n- stdIn:201.5-201.18 Error: non-constructor applied to argument in pattern: totalLength\nstdIn:201.54 Error: unbound variable or constructor: x\nstdIn:201.5-201.55 Error: operator and operand don't agree [tycon mismatch]\n  operator domain: 'Z * int * 'Z -> 'Z\n  operand:         'Y * 'Y -> 'Y\n  in expression:\n    (mapreduce String.size) +\n- val a = Node(Empty,5,Empty);\nval b = Node(a,6,a);\nval c= Node(b,1,b);\n\n\nval a = Node (Empty,5,Empty) : int tree\nval b = Node (Node (Empty,5,Empty),6,Node (Empty,5,Empty)) : int tree\nval c = Node (Node (Node #,6,Node #),1,Node (Node #,6,Node #)) : int tree\n- mapreduce (fn x=>x+1) (fn (x,y)=>x+y) 0 c;\nstdIn:209.1-209.42 Error: operator and operand don't agree [tycon mismatch]\n  operator domain: 'Z * int * 'Z -> 'Z\n  operand:         'Y * 'Y -> 'Y\n  in expression:\n    (mapreduce (fn x => <exp> + <exp>)) (fn (x,y) => x + y)\n- mapreduce;\nval it = fn : ('a -> 'b) -> ('c * 'b * 'c -> 'c) -> 'c -> 'a tree -> 'c\n- c;\nval it = Node (Node (Node #,6,Node #),1,Node (Node #,6,Node #)) : int tree\n- map (fn x=>x+1) c;\nval it = Node (Node (Node #,7,Node #),2,Node (Node #,7,Node #)) : int tree\n- reduce (op +) 0 (map (fn x=>x+1) c);\nstdIn:212.1-212.36 Error: operator and operand don't agree [tycon mismatch]\n  operator domain: 'Z * 'Y * 'Z -> 'Z\n  operand:         'X * 'X -> 'X\n  in expression:\n    reduce +\n- stdIn:232.5-232.18 Error: non-constructor applied to argument in pattern: totalLength\nstdIn:233.47 Error: unbound variable or constructor: x\n- stdIn:256.5-256.18 Error: non-constructor applied to argument in pattern: totalLength\nstdIn:257.47 Error: unbound variable or constructor: x\n- reduce (op +) 0 (map (fn x=>x+1) c);\nstdIn:1.2-237.11 Error: operator and operand don't agree [tycon mismatch]\n  operator domain: 'Z * 'Y * 'Z -> 'Z\n  operand:         'X * 'X -> 'X\n  in expression:\n    reduce +\n- stdIn:280.5-280.18 Error: non-constructor applied to argument in pattern: totalLength\nstdIn:281.47 Error: unbound variable or constructor: x\n- val totalLength x = \n	mapreduce (String.size) (fn(a,y,z)=>a+y+z) 0 x\n\n= ;\nstdIn:77.4-211.4 Error: non-constructor applied to argument in pattern: totalLength\nstdIn:285.47 Error: unbound variable or constructor: x\n- reduce (op +) 0 (map (fn x=>x+1) c);\nstdIn:1.2-285.15 Error: operator and operand don't agree [tycon mismatch]\n  operator domain: 'Z * 'Y * 'Z -> 'Z\n  operand:         'X * 'X -> 'X\n  in expression:\n    reduce +\n- reduce ((fn (x,y,z)=>x+y+z)) 0 (map (fn x=>x+1) c);\nval it = 40 : int\n- mapreduce (String.size) (fn(a,y,z)=>a+y+z) 0 x\n\n= ;\nstdIn:288.46 Error: unbound variable or constructor: x\n- mapreduce (String.size) (fn(a,y,z)=>a+y+z) 0 ;\nval it = fn : string tree -> int\n- datatype 'a tree = Empty | Node of 'a tree * 'a * 'a tree\nval map = fn : ('a -> 'b) -> 'a tree -> 'b tree\nval reduce = fn : ('a * 'b * 'a -> 'a) -> 'a -> 'b tree -> 'a\nval mapreduce = fn : ('a -> 'b) -> ('c * 'b * 'c -> 'c) -> 'c -> 'a tree -> 'c\nval totalLength = fn : string tree -> int\nval a = Node (Empty,5,Empty) : int tree\nval b = Node (Node (Empty,5,Empty),6,Node (Empty,5,Empty)) : int tree\nval c = Node (Node (Node #,6,Node #),1,Node (Node #,6,Node #)) : int tree\n- stdIn:328.15-328.55 Error: operator and operand don't agree [tycon mismatch]\n  operator domain: int list\n  operand:         (int -> int list) * 'Z\n  in expression:\n    ((foldr *) 1) (tabulate (fn <pat> => <exp>),n)\n- val tabulate = fn : (int -> 'a) -> int -> 'a list\nval evens = fn : int -> int list\nval fact = fn : int -> int\n- mapreduce (String.size) (fn(a,y,z)=>a+y+z) 0 ;\nval it = fn : string tree -> int\n- datatype 'a tree = Empty | Node of 'a tree * 'a * 'a tree\nval map = fn : ('a -> 'b) -> 'a tree -> 'b tree\nval reduce = fn : ('a * 'b * 'a -> 'a) -> 'a -> 'b tree -> 'a\nval mapreduce = fn : ('a -> 'b) -> ('c * 'b * 'c -> 'c) -> 'c -> 'a tree -> 'c\nval totalLength = fn : string tree -> int\nval a = Node (Empty,5,Empty) : int tree\nval b = Node (Node (Empty,5,Empty),6,Node (Empty,5,Empty)) : int tree\nval c = Node (Node (Node #,6,Node #),1,Node (Node #,6,Node #)) : int tree\n- datatype 'a tree = Empty | Node of 'a tree * 'a * 'a tree\nval map = fn : ('a -> 'b) -> 'a tree -> 'b tree\nval reduce = fn : ('a * 'b * 'a -> 'a) -> 'a -> 'b tree -> 'a\nval mapreduce = fn : ('a -> 'b) -> ('c * 'b * 'c -> 'c) -> 'c -> 'a tree -> 'c\nval totalLength = fn : string tree -> int\nval a = Node (Empty,5,Empty) : int tree\nval b = Node (Node (Empty,5,Empty),6,Node (Empty,5,Empty)) : int tree\nval c = Node (Node (Node #,6,Node #),1,Node (Node #,6,Node #)) : int tree\nval a = Node (Empty,\"abc\",Empty) : string tree\nval b = Node (Node (Empty,\"abc\",Empty),\"ii\",Node (Empty,\"abc\",Empty))\n  : string tree\n- totalLength b;\nval it = 8 : int\n- val tabulate = fn : (int -> 'a) -> int -> 'a list\nval evens = fn : int -> int list\nval fact = fn : int -> int\n- tabulate (fn x=> x*3) 5;\nval it = [0,3,6,9,12] : int list\n- evens 5;\nval it = [0,2,4,6,8] : int list\n- fact 5;\nval it = 120 : int\n- ",
+			"settings":
+			{
+				"buffer_size": 7995,
+				"line_ending": "Unix",
+				"name": "*REPL* [sml]",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "Packages/SML (Standard ML)/SML.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"sml",
+				"SublimeREPL: SML"
+			],
+			[
+				"py",
+				"SublimeREPL: Python"
+			],
+			[
+				"pyth",
+				"SublimeREPL: Python"
+			],
+			[
+				"pack",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pac",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"repl",
+				"SublimeREPL: SML"
+			],
+			[
+				"repl:sml",
+				"SublimeREPL: SML"
+			],
+			[
+				"Snippet: ",
+				"Snippet: SML 'fun' function"
+			],
+			[
+				"Package Control: sea",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"build",
+				"Build: Cancel"
+			],
+			[
+				"pc",
+				"Package Control: Install Package"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"pca",
+				"Package Control: Install Package"
+			],
+			[
+				"paca",
+				"Package Control: Add Channel"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"mmp",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"ssm",
+				"Set Syntax: Markdown"
+			],
+			[
+				"SET syntax: mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"Package Control: install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 448.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"print(a)",
+			"pring(a)",
+			"print a",
+			"a=1",
+			"import pygame",
+			"print(a)",
+			"print a",
+			"a",
+			"a=1",
+			"print a",
+			"print ",
+			"print 1",
+			"import",
+			"python test4.py",
+			"[1,2]",
+			"a=input('')",
+			"print (1)",
+			"print 1",
+			"print ",
+			"print 1",
+			"ls",
+			"python",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ZihanZhou/15150",
+		"/Users/ZihanZhou/15150/hw06-handout"
+	],
+	"file_history":
+	[
+		"/Users/ZihanZhou/15150/hw06-handout/infvec.sig",
+		"/Users/ZihanZhou/15150/hw06-handout/test-all.sml",
+		"/Users/ZihanZhou/15150/hw06-handout/util.sig",
+		"/Users/ZihanZhou/15150/hw06-handout/util.sml",
+		"/Users/ZihanZhou/15150/hw06-handout/listvec.sml",
+		"/Users/ZihanZhou/15150/hw06-handout/funvec.sml",
+		"/Users/ZihanZhou/15150/hw06-handout/matrix.sml",
+		"/Users/ZihanZhou/15150/hw06-handout/sparsevec.sml",
+		"/Users/ZihanZhou/15150/hw06-handout/intelt.sml",
+		"/Users/ZihanZhou/15150/hw06-handout/infecelt.sml",
+		"/Users/ZihanZhou/15150/hw06-handout/elt.sig",
+		"/Users/ZihanZhou/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ZihanZhou/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/ZihanZhou/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/ZihanZhou/15150/lab06/code/intset.sig",
+		"/Users/ZihanZhou/15150/lab06/code/sources.cm",
+		"/Users/ZihanZhou/15150/lab06/code/arith.cm",
+		"/Users/ZihanZhou/15150/lab06/code/SetKeepDuplicates.sml",
+		"/Users/ZihanZhou/15150/lab06/code/SetNoDuplicates.sml",
+		"/Users/ZihanZhou/15150/lab06/code/test.py",
+		"/Users/ZihanZhou/15150/hw05-handout/1.sml",
+		"/Users/ZihanZhou/15150/hw05-handout/delimiters2.sml",
+		"/Users/ZihanZhou/15150/hw05-handout/isort.sml",
+		"/Users/ZihanZhou/15150/hw05-handout/delimiters.sml",
+		"/Users/ZihanZhou/15150/hw05-handout/1.py",
+		"/Users/ZihanZhou/15150/hw05-handout/*REPL* [sml].ml",
+		"/Users/ZihanZhou/15150/hw05-handout/test.sml",
+		"/Users/ZihanZhou/15150/lab05/code/trees.sml",
+		"/Users/ZihanZhou/15150/lab05/code/more-trees.sml",
+		"/Users/ZihanZhou/15150/hw04-handout/canonical.sml",
+		"/Users/ZihanZhou/15150/hw04-handout/balanced.sml",
+		"/Users/ZihanZhou/15150/hw04-handout/sloppy.sml",
+		"/Users/ZihanZhou/15150/lab04/code/options.sml",
+		"/Users/ZihanZhou/15150/lab04/code/isPermutation.sml",
+		"/Users/ZihanZhou/15150/hw2/hw02-handout/test.sml",
+		"/Users/ZihanZhou/15150/hw2/hw02-handout/robot.sml",
+		"/Users/ZihanZhou/15150/hw2/hw02-handout/itree.sml",
+		"/Users/ZihanZhou/15150/hw03-handout/submsetsum.sml",
+		"/Users/ZihanZhou/15150/hw2/hw02-handout/test.py",
+		"/Users/ZihanZhou/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ/123149681/Image/_Z_E1G$}IAQI$6%(BULWH%2.jpg",
+		"/Users/ZihanZhou/15150/lab02/code/sat.sml",
+		"/Users/ZihanZhou/15150/lab02/code/test.py",
+		"/Users/ZihanZhou/15150/lab02/code/trees.sml",
+		"/Users/ZihanZhou/15150/1.sml",
+		"/Users/ZihanZhou/15150/hw01-handout/pascal.sml",
+		"/Users/ZihanZhou/15150/hw01-handout/test.sml",
+		"/Users/ZihanZhou/15150/sml_mac.sh",
+		"/Users/ZihanZhou/15150/hw01-handout/test.py",
+		"/Users/ZihanZhou/15150/lab01/code/summorial.sml",
+		"/Users/ZihanZhou/15150/hw01-handout/errors.sml",
+		"/Users/ZihanZhou/Library/Application Support/Sublime Text 3/Packages/User/newsml.sublime-build",
+		"/Users/ZihanZhou/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/SML/Main.sublime-menu",
+		"/Users/ZihanZhou/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/SML/Default.sublime-commands",
+		"/Users/ZihanZhou/Library/Application Support/Sublime Text 3/Packages/User/smlbuild.sublime-build",
+		"/Users/ZihanZhou/15150/Default.sublime-commands",
+		"/Users/ZihanZhou/15150/Main.sublime-menu",
+		"/Users/ZihanZhou/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/ZihanZhou/purerts/mygame/pc/824.py",
+		"/Users/ZihanZhou/purerts/mygame/how do great writers , poets,artitist, orators cap",
+		"/Users/ZihanZhou/purerts/pygame/examples/scroll.py",
+		"/Users/ZihanZhou/purerts/mygame/twodvector.py",
+		"/Users/ZihanZhou/realpython.sublime-build",
+		"/Users/ZihanZhou/python2.sublime-build",
+		"/Users/ZihanZhou/purerts/mygame/xueshen.py",
+		"/Users/ZihanZhou/purerts/mygame/quicksort.py",
+		"/Users/ZihanZhou/python2.json",
+		"/Users/ZihanZhou/242.py",
+		"/Volumes/ntfs/BSD/安装.txt",
+		"/Users/ZihanZhou/purerts/groupandsprite.py",
+		"/Users/ZihanZhou/purerts/testscroll.py",
+		"/Users/ZihanZhou/purerts/cocos2d.py",
+		"/Users/ZihanZhou/purerts/1.c",
+		"/Users/ZihanZhou/Downloads/FlyingHeart Education Consultancy.txt",
+		"/Users/ZihanZhou/purerts/1.py",
+		"/Users/ZihanZhou/Dropbox/Essay Committee/Tasks/12182013.txt",
+		"/Users/ZihanZhou/CPRO/quanpailie.py",
+		"/Users/ZihanZhou/CPRO/test.py",
+		"/Users/ZihanZhou/purerts/mygame/test.c",
+		"/Users/ZihanZhou/purerts/mygame/untitled.py",
+		"/Users/ZihanZhou/purerts/pygame/examples/chimp.py",
+		"/Users/ZihanZhou/purerts/pygame/examples/moveit.py",
+		"/Users/ZihanZhou/purerts/mygame/zihanzproject.py",
+		"/Users/ZihanZhou/purerts/pygame/examples/importchimp.py",
+		"/Users/ZihanZhou/purerts/mygame/1.py",
+		"/Users/ZihanZhou/purerts/makinggames_src/memorypuzzle.py",
+		"/Users/ZihanZhou/purerts/twodvector.py",
+		"/Users/ZihanZhou/purerts/rewriteinvector.py",
+		"/Users/ZihanZhou/PYTHONCODE/pages.py",
+		"/Users/ZihanZhou/purerts/protonone.py",
+		"/Users/ZihanZhou/purerts/testscope.py",
+		"/Users/ZihanZhou/purerts/drawsin.py",
+		"/Users/ZihanZhou/purerts/boucingrect.py",
+		"/Users/ZihanZhou/purerts/basicdraw.py",
+		"/Users/ZihanZhou/purerts/test7.py",
+		"/Users/ZihanZhou/Library/Application Support/Sublime Text 2/Packages/Python/Python.sublime-build",
+		"/Users/ZihanZhou/purerts/test5.py",
+		"/Users/ZihanZhou/purerts/exogene-0.4.1/serge/sound.py",
+		"/Users/ZihanZhou/purerts/exogene-0.4.1/game/startscreen.py",
+		"/Users/ZihanZhou/Library/Application Support/Sublime Text 3/Packages/Pylinter/Pylinter.sublime-settings",
+		"/Users/ZihanZhou/purerts/exogene-0.4.1/exogene.py",
+		"/Users/ZihanZhou/purerts/sge-pygame-0.5.1-py2.6/examples/splitscreen.py",
+		"/Users/ZihanZhou/purerts/sge-pygame-0.5.1-py2.6/examples/rotation.py",
+		"/Users/ZihanZhou/purerts/sge-pygame-0.5.1-py2.6/examples/multiple_rooms.py",
+		"/Users/ZihanZhou/purerts/sge-pygame-0.5.1-py2.6/examples/object_moving.py",
+		"/Users/ZihanZhou/purerts/sge-pygame-0.5.1-py2.6/examples/large_room.py",
+		"/Users/ZihanZhou/purerts/sge-pygame-0.5.1-py2.6/examples/circle_popper.py",
+		"/Users/ZihanZhou/purerts/pygame/examples/aliens.py",
+		"/Users/ZihanZhou/purerts/sge-pygame-0.5.1-py2.6/examples/pong.py",
+		"/Users/ZihanZhou/purerts/openrts-0.2-src/openrts.py",
+		"/Users/ZihanZhou/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/ZihanZhou/purerts/purerts.sublime-project",
+		"/Users/ZihanZhou/purerts/test.py",
+		"/Users/ZihanZhou/PYTHONCODE/zihanzhw7/problematic code.py",
+		"/Users/ZihanZhou/Google 云端硬盘/1.m",
+		"/Users/ZihanZhou/Google 云端硬盘/Teaching.txt",
+		"/Users/ZihanZhou/PYTHONCODE/.test.py.swp",
+		"/Users/ZihanZhou/PYTHONCODE/zihanzhw7/quiz6.py",
+		"/Users/ZihanZhou/PYTHONCODE/zihanzhw7/command.log",
+		"/Users/ZihanZhou/PYTHONCODE/hw8ui/test2.py",
+		"/Users/ZihanZhou/PYTHONCODE/hw8ui/zihanzhw8.py",
+		"/Users/ZihanZhou/PYTHONCODE/zihanzhw6.py",
+		"/Users/ZihanZhou/PYTHONCODE/zihanzhw5.py",
+		"/Users/ZihanZhou/PYTHONCODE/zihanzhw7/test.py",
+		"/Users/ZihanZhou/PYTHONCODE/zihanzhw7/zihanzhw7.py",
+		"/Users/ZihanZhou/Downloads/NO LOGO-2.txt",
+		"/Users/ZihanZhou/PYTHONCODE/ImageWriter.py",
+		"/Users/ZihanZhou/PYTHONCODE/1.m",
+		"/Users/ZihanZhou/zihanzhw6.py"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"E.m",
+			"chop",
+			"tab",
+			"space",
+			"case",
+			"iLeaf a",
+			"bool",
+			"if",
+			"exp",
+			"snipp",
+			"print",
+			"selec",
+			"'\\'",
+			"main",
+			"max",
+			"money",
+			"print",
+			"font",
+			"self.speed",
+			"pushed",
+			"alive",
+			"aimunit",
+			"totalattackpoint",
+			"button",
+			"autoaimmode",
+			"self.autoaimmode",
+			"attack(",
+			"cur.draw",
+			"cur.",
+			"cursor.a",
+			"attackmode",
+			"collide_rect",
+			"get_",
+			"leng",
+			"colli",
+			"attack",
+			"unit",
+			"attack",
+			"units",
+			"combatu",
+			"units.",
+			"unitc",
+			"uniti",
+			"speed",
+			"print",
+			"pygame.draw",
+			"get",
+			"DIR",
+			"scro",
+			"scroll",
+			"mpushed",
+			"bgsurface",
+			"print",
+			"currentaimpos",
+			"draw",
+			"navirect",
+			"navi",
+			".rect",
+			"self.rect",
+			"print",
+			"navirect",
+			"update",
+			"UI",
+			"navirect",
+			"navi",
+			"navirect",
+			"def upda",
+			"update",
+			"units.upda",
+			"self.pos",
+			"draw",
+			"print",
+			"update",
+			"navirect",
+			"scroll",
+			"navi",
+			"choserect",
+			"scre",
+			"backgr",
+			"navi",
+			"clear",
+			"fill",
+			"bgsurfa",
+			"navipos",
+			"curre",
+			"navipo",
+			"navirect.t",
+			"DIR",
+			"navire",
+			"nairect",
+			"update",
+			"curre",
+			"navi",
+			"draw(",
+			"draw",
+			"scro",
+			"choserect",
+			"units",
+			"screen",
+			"scre",
+			"rsurf",
+			"r su r f",
+			"s si ze",
+			"others",
+			"self.speed.nor",
+			"print",
+			"units",
+			"move",
+			"units",
+			"cur",
+			"update",
+			"Group",
+			"group",
+			"blit",
+			"button",
+			"norm",
+			"curre",
+			"print",
+			"speed",
+			"pos_x",
+			"speed",
+			"curr",
+			"None",
+			"self.pos",
+			"i.move",
+			"chosen",
+			"unit",
+			"get_an"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#print",
+			"cursor.attackmode",
+			"#print",
+			"#pring",
+			"PI",
+			"GREEN",
+			"BLUE",
+			"BLACK",
+			"RED",
+			"SCREEN",
+			"execute",
+			"Execute",
+			"commands[index][",
+			"(commands[index][",
+			"(commands[index])",
+			"ImageWriter",
+			"isonlyneedaddoredit",
+			"#print",
+			"haha"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lab07/code/mapreduce.sml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 863,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								426
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/SML (Standard ML)/sml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "hw06-handout/funvec.sml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3856,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3012,
+								3012
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/SML (Standard ML)/sml.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2742.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lab07/code/quantifiers.sml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								562,
+								562
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/SML (Standard ML)/sml.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 189.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lab07/code/tabulate.sml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								172
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/SML (Standard ML)/sml.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7995,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7995,
+								7995
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"incomplete_sync": null,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "sml",
+							"repl_id": "07dc35b662f749d08bad6a6487583d27",
+							"repl_restart_args":
+							{
+								"cmd":
+								[
+									"/usr/local/bin/sml"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"external_id": "sml",
+								"syntax": "Packages/SML (Standard ML)/sml.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/SML (Standard ML)/sml.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3182.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.556932024198,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 232.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 118.0
+	},
+	"output.sftp":
+	{
+		"height": 154.0
+	},
+	"project": "sml.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/PYTHONCODE/pc/program C.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 154.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,33 @@
+Group is
+    $/basis.cm
+    sequence/sources.cm
+
+    intutil.sig
+    intutil.sml
+
+    sequtil.sig
+    sequtil.sml
+
+    util.sig
+    util.sml
+
+    letter.sig
+    letter-str.sml
+    letter-int.sml
+
+    assignment.sig
+    assignment.sml
+
+    literal.sig
+    literal.sml
+
+    prop.sig
+    prop.sml
+
+    cnf.sig
+    cnf.sml
+
+    prop2.sig
+    prop2.sml
+
+    test-all.sml
